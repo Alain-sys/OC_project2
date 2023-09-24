@@ -1,0 +1,67 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* ... */
+
+  .main-container {
+    padding: 0;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .menu__list {
+    gap: 0;
+  }
+
+  .menu__list__item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .menu__list__link {
+    width: 100%;
+    padding: 0 0 16px 0;
+    text-align: center;
+  }
+
+  .menu__list__link::before {
+    top: 100%;
+    width: 100%;
+    background: var(--bc-light-grey);
+  }
+
+  .menu__list__link:focus::before {
+    background: var(--main-color);
+  }
+
+  .info {
+    padding: 20px;
+  }
+
+  .search-bar--search {
+    width: 100%;
+  }
+
+  .search-bar--submit-desktop {
+    display: none;
+  }
+
+  .search-bar--submit-mobile {
+    display: block;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .search-bar__icon-search {
+    color: #ffffff;
+  }
+}

@@ -14,7 +14,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/a450a1b571.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
   </head>
 
   <body>
@@ -25,12 +27,29 @@
         </div>
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__list-item"><a class="menu__list-link" href="#">Hébergements</a></li>
-            <li class="menu__list-item"><a class="menu__list-link" href="#">Activités</a></li>
+            <li class="menu__list__item"><a class="menu__list__link" href="#">Hébergements</a></li>
+            <li class="menu__list__item"><a class="menu__list__link" href="#">Activités</a></li>
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="main">
+        <div class="info">
+          <section class="headline">
+            <h1 class="headline__title">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+          </section>
+
+          <form class="search-bar">
+            <i class="fa-solid fa-location-dot search-bar__icon-location"></i>
+            <input type="text" class="search-bar--search" value="Marseille, France" />
+            <button type="submit" class="search-bar--submit-desktop">Rechercher</button>
+            <button type="submit" class="search-bar--submit-mobile"><i class="fa-solid fa-magnifying-glass search-bar__icon-search"></i></button>
+          </form>
+
+          <div class="filter"></div>
+          <div class="tooltip"></div>
+        </div>
+
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
           <section class="populaires">
