@@ -53,4 +53,8 @@
     flex-direction: column;
     gap: 15px;
   }
+
+  .activities-card__img {
+    height: 140px;
+  }
 }
