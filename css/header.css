@@ -29,7 +29,7 @@
   padding-top: 16px;
 }
 
-.menu__list__link:focus {
+.menu__list__link:hover {
   color: var(--main-color);
 }
 
@@ -45,8 +45,7 @@
   background: var(--main-color);
 }
 
-.menu__list__link:hover::before,
-.menu__list__link:focus::before {
+.menu__list__link:hover::before {
   width: 100%;
 }
 
@@ -81,10 +80,10 @@
   .menu__list__link::before {
     top: 100%;
     width: 100%;
-    background: var(--bc-light-grey);
+    background: var(--bg-main-color);
   }
 
-  .menu__list__link:focus::before {
+  .menu__list__link:hover:before {
     background: var(--main-color);
   }
 }

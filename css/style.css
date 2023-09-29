@@ -10,8 +10,8 @@
 /****** General  ******/
 :root {
   --main-color: #0065fc;
-  --main-bg-color: #f2f2f2;
-  --filter-bg-color: #deebff;
+  --bg-main-color: #f2f2f2;
+  --bg-filter-color: #deebff;
   --border-dark-grey: #d9d9d9;
   --fs-search-bar: 18px;
   --fs-title-accommodations: 22px;
