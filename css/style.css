@@ -545,7 +545,8 @@ a {
   /****** Filters ******/
   .filter {
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 1fr);
     margin-right: 0;
     gap: 10px;
   }
